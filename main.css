@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@media (min-device-width: 1520px) {
+    .extra{
+        margin-top: 70vh !important;
+    }
+}
+@media (max-device-width: 445px) {
+    .extra{
+        margin-top: 32vh !important;
+    }
+    .h-auto{
+        height: 60vh !important;
+    }
+}
+@media (max-device-width: 767px) {
+    .divider{
+        display: none;
+    }
+    .margin-top{
+        margin-top: 14vh;
+        border-top: 1px solid;
+        padding-top: 7vh;
+    }
+    .foot{
+        padding-top: 7vh;
+    }
+}
